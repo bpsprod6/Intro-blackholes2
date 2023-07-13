@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Black Hole</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+    #container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: calc(100vh - 40px); /* Adjust for the footer height */
+  padding: 20px;
+}
+
+#text-container {
+  color: white;
+  width: 50%;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+#image-container {
+  width: 50%;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+p, ol {
+  font-size: 18px;
+  line-height: 1.5;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.pagination a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid white;
+            margin: 0 5px;
+        }
+</style>
+</head>
+<body>
+  <div id="container">
+    <div id="text-container">
+      <div class="pagination">
+        <a href="./Page2.html">Page 2</a>   <a href="./Page3.html">Page 3</a>
+       </div>
+       <hr />
+      
+
+      <h1>Introduction to Black Holes</h1>
+      <p>A black hole is a region in space where gravity is so strong that nothing, not even light, can escape its gravitational pull...</p>
+      <ol>
+        <li>A black hole is a region in space where gravity is so strong that nothing, not even light, can escape its gravitational pull. It is formed from the remnants of a massive star that has undergone a gravitational collapse. The collapse occurs when the star's core exhausts its nuclear fuel and is no longer able to support itself against the inward pull of gravity.</li>
+        <li>Singularity: At the center of a black hole lies a point of infinite density known as a singularity. It is thought to be a region of zero size and infinite mass, where the laws of physics as we know them break down. Our understanding of the singularity is based on theoretical predictions, as direct observation is not possible.</li>
+        <li>Event Horizon: The event horizon is the boundary of a black hole beyond which nothing can escape. Once an object crosses this point, known as the "point of no return," it is trapped within the black hole's gravitational grip. The event horizon is determined by the mass of the black hole. The larger the mass, the larger the event horizon.</li>
+        <li>Spaghettification: As an object gets closer to a black hole, the difference in gravitational force across its length becomes so immense that it stretches or "spaghettifies" the object. This phenomenon occurs because the gravitational force on the side of the object closest to the black hole is much stronger than on the opposite side.</li>
+        <li>Time Dilation: Near a black hole, time runs slower compared to regions further away. This time dilation effect arises due to the intense gravitational field. It means that for an observer near the event horizon, time appears to pass slower compared to someone further away. This effect has been observed and verified through experiments involving extremely precise atomic clocks.</li>
+        <li>Black Hole Mergers: Black holes can merge when two of them come close enough to each other. This occurs due to the emission of gravitational waves, which are ripples in spacetime. When two black holes merge, they release an enormous amount of energy in the form of gravitational waves. This phenomenon was first detected in 2015 by the Laser Interferometer Gravitational-Wave Observatory (LIGO) detectors.</li>
+        <li>Supermassive Black Holes: Supermassive black holes are much larger than stellar black holes. They can have masses millions or even billions of times greater than our Sun. These colossal black holes are thought to reside at the centers of most galaxies, including our own Milky Way. The formation mechanisms and evolution of supermassive black holes are still an active area of research.</li>
+        <li>Information Paradox: Black holes present a paradox known as the "information paradox." According to quantum mechanics, information cannot be destroyed, yet black holes are thought to have an event horizon from which nothing can escape, including information. Resolving this paradox is an ongoing challenge in theoretical physics.</li>
+        <li>Black Hole Thermodynamics: Black holes have been studied in the context of thermodynamics, leading to the formulation of laws analogous to the laws of thermodynamics. For instance, the area of the event horizon of a black hole is related to its entropy, and the surface gravity of a black hole is analogous to temperature. This connection between black holes and thermodynamics has provided profound insights into the nature of black holes.</li>
+      </ol>
+    </div>
+    <div id="image-container">
+      <img src="./1315743.jpg" alt="Black Hole" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+  </div>
+   
+  <footer>
+    Designed by Bhavya Shah
+  </footer>
+</body>
+</html>
+
+
+
+
