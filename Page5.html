@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Falling Into Black Hole</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h1 {
+      color: white;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    
+    .image-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      animation: zoomIn 5s infinite;
+    }
+    
+    @keyframes zoomIn {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+    .content {
+      color: white;
+      text-align: left;
+      margin: 20px;
+      animation: fadeIn 2s;
+    }
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>What If You Fell Into A Black Hole?</h1>
+  <div class="image-container">
+    <img src="./Assets/Images/1311860.jpeg" alt="Full-Screen Image">
+  </div>
+  <div class="content">
+    <p>Falling inside a black hole is a fascinating concept, but our current understanding of physics suggests that the experience would be quite extreme and peculiar. Keep in mind that our knowledge of what happens inside a black hole is limited and heavily theoretical, as the extreme conditions within a black hole make it difficult to observe directly.</p>
+    <ol>
+      <li>As you approach a black hole, the gravitational pull becomes incredibly strong. This tidal force, also known as spaghettification, would stretch your body apart, with the gravitational force being much stronger on your feet than your head. This effect is due to the immense gravitational gradient near the black hole.</li>
+      <li>As you pass the event horizon, which is the point of no return, any signals or objects cannot escape the black hole's gravitational pull, including light. This means that you would be unable to communicate with the outside world or send any information back.</li>
+      <li>Once inside the black hole, according to general relativity, the gravitational force continues to increase toward the singularity at the center. The singularity is thought to be a point of infinite density and zero volume. However, our understanding of what happens at the singularity is limited, and it is an area of active research in theoretical physics.</li>
+      <li>One possibility is that you would be crushed as you approach the singularity, experiencing what is often referred to as "spaghettification" in a more extreme manner. Another possibility is that you might encounter a firewall, which is a theoretical idea suggesting that a violent energy barrier exists just above the event horizon.</li>
+    </ol>
+    <p>Ultimately, because the laws of physics, as we currently understand them, break down near the singularity, we can't say with certainty what exactly would happen to an object or a person falling inside a black hole. It's an area of ongoing scientific inquiry and a topic of much speculation and theoretical exploration.</p>
+  </div>
+</body>
+</html>
